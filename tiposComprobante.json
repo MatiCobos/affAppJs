@@ -1,0 +1,10 @@
+[
+    {"tcom_Codigo": 1, "tcom_Descripcion": "AMBULATORIO", "tcom_Estado": "S", "tcom_Usuario": "ADMIN", "tcom_FechaCreacion": "2013-06-12 09:50:11.937", "tcom_EstadoRegistro": "U"},
+    {"tcom_Codigo": 2, "tcom_Descripcion": "INTERNACION", "tcom_Estado": "S", "tcom_Usuario": "ADMIN", "tcom_FechaCreacion": "2013-06-12 09:50:11.937", "tcom_EstadoRegistro": "U"},
+    {"tcom_Codigo": 3, "tcom_Descripcion": "RADIOTERAPIA", "tcom_Estado": "S", "tcom_Usuario": "ADMIN", "tcom_FechaCreacion": "2013-06-12 09:50:11.937", "tcom_EstadoRegistro": "U"},
+    {"tcom_Codigo": 4, "tcom_Descripcion": "CARDIOLOGIA", "tcom_Estado": "S", "tcom_Usuario": "ADMIN", "tcom_FechaCreacion": "2013-06-12 09:50:11.937", "tcom_EstadoRegistro": "U"},
+    {"tcom_Codigo": 5, "tcom_Descripcion": "PROTOCOLO", "tcom_Estado": "S", "tcom_Usuario": "ADMIN", "tcom_FechaCreacion": "2013-06-12 09:50:11.937", "tcom_EstadoRegistro": "U"},
+    {"tcom_Codigo": 6, "tcom_Descripcion": "REFACTURADO", "tcom_Estado": "S", "tcom_Usuario": "ADMIN", "tcom_FechaCreacion": "2013-06-12 09:50:11.937", "tcom_EstadoRegistro": "U"},
+    {"tcom_Codigo": 7, "tcom_Descripcion": "CVAMBULATORIO", "tcom_Estado": "S", "tcom_Usuario": "ADMIN", "tcom_FechaCreacion": "2013-08-13 17:36:13.557", "tcom_EstadoRegistro": "U"},
+    {"tcom_Codigo": 8, "tcom_Descripcion": "AMBULATORIO BP", "tcom_Estado": "S", "tcom_Usuario": "ADMIN", "tcom_FechaCreacion": "2022-04-12 14:13:52.637", "tcom_EstadoRegistro": "U"}
+  ]
