@@ -1,48 +1,50 @@
-body, label, select, button, table {
-    font-family: 'Roboto', sans-serif;
-}
-
+/* Estilos generales */
 body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    color: #ba0070; 
+    color: #ba0070;
 }
 
-.btn-primary {
-    background-color: #ba0070;
-    border: 1px solid #ba0070; 
-}
-
-.btn-primary:hover {
-    background-color: #8a0052;
-    border: 1px solid #8a0052; 
-}
-
+/* Estilos del Navbar */
 .navbar {
     background-color: #ba0070;
     color: #ffffff;
-    border-bottom: 1px solid #ba0070
+    border-bottom: 1px solid #ba0070;
 }
+
+.navbar-text {
+    color: #ba0070;
+}
+
+.navbar-logo {
+    fill: #ba0070;
+}
+
+.navbar-text a {
+    color: #ba0070; 
+}
+
+.navbar-text a:hover {
+    cursor: pointer; 
+}
+
+/* Estilos del Main */
 #resultados {
     margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(186, 0, 112, 0.5);
+    border-radius: 8px;
 }
 
 .resultado {
     border: 1px solid #ba0070;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #f8f9fa; 
+    background-color: #f8f9fa;
 }
 
 .resultado p {
     margin: 0;
-}
-
-#resultados {
-    margin-top: 20px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(186, 0, 112, 0.5); 
-    border-radius: 8px;
-
 }
 
 table {
@@ -58,13 +60,12 @@ th, td {
 }
 
 th {
-    background-color: #ba0070;
-    color: #ffffff;
-    border: 1px solid #ba0070;
+    background-color: #ba0070 !important;
+    color: #ffffff !important;
+    border: 1px solid #ba0070 !important;
     padding: 10px;
     text-align: left;
     position: sticky;
-
 }
 
 td {
@@ -77,6 +78,7 @@ th:not(:last-child),
 td:not(:last-child) {
     border-right: 1px solid #ffffff;
 }
+
 select {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -84,32 +86,86 @@ select {
 #tipoComprobante {
     width: 30%;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(186, 0, 112, 0.5); 
+    box-shadow: 0 0 10px rgba(186, 0, 112, 0.5);
 }
-
 
 label {
-    color: #000000; 
-    margin-top: 10px; 
-    margin-bottom: 10px; 
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+.container-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.custom-label {
+    text-align: left;
+}
+
+.login-form-container {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(186, 0, 112, 0.5);
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-form-container h2 {
+    color: #ba0070;
+}
+
+.login-form-container #username-display {
+    color: #ba0070;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(186, 0, 112, 0.25);
+    border-color: #ba0070;
+}
+
+/* Estilos del Footer */
 .footer {
     background-color: transparent;
     color: #000000;
     padding: 10px;
     text-align: center;
-    border-top: 1px solid #ba0070; 
-    margin-top: 20px; 
+    border-top: 1px solid #ba0070;
+    margin-top: 20px;
 }
+
 .footer a {
     color: #000000;
 }
 
+/* Estilos del boton */
 
-.container-main {
-    margin-right: 15px; 
-    margin-left: 15px; 
+.btn-primary {
+    background-color: #ba0070;
+    border: 1px solid #ba0070;
 }
 
+.btn-primary:hover {
+    background-color: #8a0052;
+    border: 1px solid #8a0052;
+}
 
+#buscar-button {
+    background-color: #ba0070;
+    border: 1px solid #ba0070;
+}
+
+#buscar-button:hover {
+    background-color: #8a0052;
+    border: 1px solid #8a0052;
+}
